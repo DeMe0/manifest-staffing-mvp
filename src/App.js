@@ -3,8 +3,7 @@ import "./App-responsive.css";
 import React, { useEffect, useState } from "react";
 import Footer from "./components/Footer/Footer";
 import { Outlet, useOutletContext } from "react-router-dom";
-import Navbar from "./components/Nav/Navbar1";
-import Navbar2 from "./components/Nav/Navbar2";
+import Navbar from "./components/Nav/Navbar";
 
 function App() {
   return (

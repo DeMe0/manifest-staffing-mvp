@@ -1,5 +1,5 @@
 * {
-  border: 1px black solid;
+  /* border: 1px black solid; */
 }
 .App {
   text-align: center;
@@ -18,6 +18,23 @@ img {
 
 .mainFlexBox {
   display: flex;
+  padding: 3% 0 3% 0;
+}
+.mainFlexBox,
+.mainDivs * {
+  /* border: 0.5px black solid; */
+  margin: auto 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  padding-left: 2%;
+}
+p {
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
 /* Navbar styling */
@@ -32,9 +49,9 @@ img {
 
 #navbarLogo {
   display: flex;
+  white-space: nowrap;
 }
 #navbarLogo h3 {
-  align-self: baseline;
 }
 
 #navbarDiv img {
@@ -64,13 +81,61 @@ img {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  justify-content: center;
+  padding: 3% 7% 3% 7%;
 }
 #partnersFlexBox img {
-  max-width: 25%;
+  max-width: 28%;
   object-fit: contain;
+  margin: 0 auto;
+}
+
+/* Style the MissionStatement component */
+#missionStatementFlexBox {
+  flex-flow: column;
+}
+
+.img-wrapper {
+  overflow: hidden;
+}
+#missionStatementFlexBox img,
+#heroFlexBox img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  transition: 0.5s all ease-in-out;
+}
+#missionStatementFlexBox:hover img,
+#heroFlexBox:hover img {
+  transform: scale(1.5) translateY(10%);
+}
+#missionStatementTextFlexBox {
+  display: flex;
+  flex-flow: column;
+  height: fit-content;
+}
+#missionStatementTextFlexBox h2,
+#missionStatementTextFlexBox p {
+  text-align: left;
 }
 
 /* Style the VerticalTiles component */
 #verticalTilesFlexBox {
-  flex-flow: column wrap;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+.verticalTilesCards {
+  display: flex;
+  max-width: 80%;
+  flex-flow: column;
+  justify-content: left;
+  padding: 1vh;
+  border: 1px solid black;
+}
+
+.verticalTilesCards * {
+  margin: auto 0;
 }

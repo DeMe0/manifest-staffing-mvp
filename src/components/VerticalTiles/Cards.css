@@ -1,0 +1,47 @@
+.card {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px;
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card img {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+
+.card h3 {
+  font-size: 24px;
+  margin: 16px;
+}
+
+.card p {
+  font-size: 16px;
+  margin: 8px 16px;
+  flex-grow: 1;
+}
+
+.card a {
+  font-size: 16px;
+  margin: 16px;
+  align-self: flex-end;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+#cardsFlexBox {
+  flex-flow: row wrap;
+}

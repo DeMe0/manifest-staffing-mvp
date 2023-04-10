@@ -16,16 +16,16 @@ img {
   width: 100%;
 }
 
-.MainFlexBox {
+.mainFlexBox {
   display: flex;
 }
 
 /* Navbar styling */
-#NavbarDiv {
+#navbarDiv {
   max-height: 10%;
 }
 
-#NavbarFlexBox {
+#navbarFlexBox {
   flex-direction: row;
   justify-content: space-between;
 }
@@ -37,7 +37,7 @@ img {
   align-self: baseline;
 }
 
-#NavbarDiv img {
+#navbarDiv img {
   width: 10vh;
   height: auto;
 }
@@ -50,7 +50,7 @@ img {
 .header {
   text-align: left;
 }
-#HeroFlexBox h3 {
+#heroFlexBox h3 {
   text-align: left;
 }
 
@@ -60,7 +60,7 @@ img {
   flex-flow: row wrap;
   justify-content: space-around;
 }
-#PartnersFlexBox img {
+#partnersFlexBox img {
   max-width: 25%;
   object-fit: contain;
 }

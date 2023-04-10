@@ -78,13 +78,15 @@
   transform: rotate(225deg);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   #hamburgerIcon {
     display: block;
   }
 
   #menuItems {
     padding-top: 80px;
+    transform: translateX(-100%);
+    z-index: 10000;
   }
 
   #menuItems ul {
@@ -96,10 +98,8 @@
     right: 30px;
   }
 
-  #menuItems {
-    transform: $ {
-      menuopen?"translateX(0)" : "translateX(-100%)";
-    }
+  #menuItems.menuOpen {
+    transform: translateX(0);
   }
 }
 

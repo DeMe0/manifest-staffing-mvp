@@ -26,7 +26,7 @@ const Navbar = (props) => {
         </div>
         {menuOpen ? (
           <div id="menuItems">
-            <div id="menuClose" onClick={handleMenuClick}>
+            <div id="menuOpen" onClick={handleMenuClick}>
               <svg viewBox="0 0 100 80" width="40" height="40">
                 <rect
                   width="100"

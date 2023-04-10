@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import CustomCard from "./CustomCard";
+import CustomCard from "../CustomCard/CustomCard";
 import data from "./data.json";
 import "./Cards.css";
 

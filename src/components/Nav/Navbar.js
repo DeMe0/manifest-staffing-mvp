@@ -4,7 +4,7 @@ import NavbarLogo from "./images/navbarLogo.png";
 const Navbar = (props) => {
   return (
     <div className="mainDivs" id="navbarDiv">
-      <div className="MainFlexBox" id="navbarFlexBox">
+      <div className="mainFlexBox" id="navbarFlexBox">
         <div id="navbarLogo">
           <img src={NavbarLogo} alt="NavbarLogo"></img>
           <h3>anifest Staffing</h3>

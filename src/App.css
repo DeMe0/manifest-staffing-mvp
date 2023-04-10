@@ -50,12 +50,17 @@ img {
 .header {
   text-align: left;
 }
+
+#heroFlexBox {
+  flex-flow: column;
+}
+
 #heroFlexBox h3 {
   text-align: left;
 }
 
 /* Style the PartnersSection component */
-#PartnersFlexBox {
+#partnersFlexBox {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -63,4 +68,9 @@ img {
 #partnersFlexBox img {
   max-width: 25%;
   object-fit: contain;
+}
+
+/* Style the VerticalTiles component */
+#verticalTilesFlexBox {
+  flex-flow: column wrap;
 }

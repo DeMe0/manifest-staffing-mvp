@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ContactForm from "../../components/Form/Form";
 import JotformEmbed from "react-jotform-embed";
 
 export const Contact = () => {

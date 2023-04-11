@@ -1,5 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import instagramIcon from "./assets/instagram.svg";
 import linkedinIcon from "./assets/linkedin.svg";

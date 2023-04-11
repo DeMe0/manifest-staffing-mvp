@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import amazonLogo from "./assets/amazon.png";
 import nikeLogo from "./assets/nike.png";

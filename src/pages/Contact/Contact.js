@@ -1,12 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ContactForm from "../../components/Form/Form";
+import JotformEmbed from "react-jotform-embed";
 
 export const Contact = () => {
   return (
     <div className="pageDiv" id="contactDiv">
-      <img src="https://media.licdn.com/dms/image/D4E03AQEAO9KWhWLAKQ/profile-displayphoto-shrink_800_800/0/1678214483266?e=2147483647&v=beta&t=-FnvbFK6x5aB7I0TdzNNy9c1pgWVOgJamfn5lHyFvKw" />
+      <div>
+        <h3>Are You Trying to Get In Touch With Us?</h3>
+        <h4>Feel free to reach out to us at info@manifeststaffing.com</h4>
+        <h4>Would you like us to reach out to you?</h4>
+        <p>
+          Please complete the following form and we will reach out within 24
+          hours.
+        </p>
+      </div>
+      <JotformEmbed src="https://www.jotform.com/230997765313163" />
       <Link to="/">Home</Link>
-      Contact
     </div>
   );
 };

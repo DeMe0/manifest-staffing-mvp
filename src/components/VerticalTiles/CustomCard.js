@@ -23,9 +23,11 @@ const CustomCard = (props) => {
       <h3 style={{ margin: "0", fontSize: "18px" }}>{title}</h3>
       <p style={{ margin: "10px 0 0 0" }}>{description}</p>
       {link && (
-        <a href={link} style={{ display: "block", margin: "10px 0 0 0" }}>
-          Learn More
-        </a>
+        <button className="cardButtons">
+          <a href={link} style={{ display: "block", margin: "10px 0 0 0" }}>
+            Learn More
+          </a>
+        </button>
       )}
     </div>
   );

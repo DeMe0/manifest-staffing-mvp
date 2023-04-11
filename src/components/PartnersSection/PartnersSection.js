@@ -10,8 +10,6 @@ import hennessyLogo from "./assets/hennessy.png";
 const PartnersSection = (props) => {
   return (
     <div className="mainDivs" id="partnersSectionDiv">
-      <Link to={"/about"}>About</Link>
-      <Link to={"/contact-us"}>Contact</Link>
       <div className="mainFlexBox" id="partnersFlexBox">
         <img src={amazonLogo} alt="amazonLogo" />
         <img src={nikeLogo} alt="nikeLogo" />

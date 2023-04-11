@@ -10,7 +10,11 @@ const Hero = (props) => {
         </h2>
         <h3>Connecting employers with extraordinary staffing!</h3>
         <div className="img-wrapper">
-          <img src={timberlandPhoto} alt="timberlandPhoto" />
+          <img
+            src={timberlandPhoto}
+            alt="timberlandPhoto"
+            className="bigImage"
+          />
         </div>
       </div>
     </div>

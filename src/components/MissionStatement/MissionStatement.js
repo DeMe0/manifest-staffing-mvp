@@ -6,11 +6,16 @@ const MissionStatement = (props) => {
     <div className="mainDivs" id="missionStatementDiv">
       <div className="mainFlexBox" id="missionStatementFlexBox">
         <div className="img-wrapper">
-          <img src={theShop} alt="theShop.jpeg" />
+          <img
+            src={theShop}
+            alt="theShop.jpeg"
+            className="bigImage"
+            id="theShopImage"
+          />
         </div>
         <div id="missionStatementTextFlexBox">
-          <h2>Our Mission Statement</h2>
-          <p>
+          <h2 className="missionStatementHeader">Our Mission Statement</h2>
+          <p className="missionStatementText">
             Let us be the bridge between your perfect event and the staff who
             work it. We will provide the highest quality staffer within each
             industry regardless of the niche you serve. We are a truested

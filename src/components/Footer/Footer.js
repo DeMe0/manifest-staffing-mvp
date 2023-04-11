@@ -1,15 +1,40 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+import instagramIcon from "./assets/instagram.svg";
+import linkedinIcon from "./assets/linkedin.svg";
+import facebookIcon from "./assets/facebook.svg";
+import navbarLogo from "./assets/navbarLogo.png";
+
 const Footer = (props) => {
   return (
     <div className="mainDivs" id="footerDiv">
-      <p>FooterComponent</p>
-      <div className="mainFlexBox" id="footerFlexBox">
-        <a href="/">
-          <FontAwesomeIcon icon="fa-brands fa-instagram" />
+      <br />
+      <h3 className="footerText">Connect with us!</h3>
+      <div className="connectDiv">
+        <p>E-mail: info@manifeststaffing.com</p>
+        <a href="/contact-us">
+          <p>Contact Us</p>
         </a>
       </div>
+      <div className="footerLogo">
+        <img src={navbarLogo} alt="navbarLogo" />
+        <p>anifest Staffing</p>
+      </div>
+
+      <div className="mainFlexBox" id="footerFlexBox">
+        <a href="/">
+          <img src={instagramIcon} alt="instagramIcon" className="footerIcon" />
+        </a>
+        <a href="/">
+          <img src={linkedinIcon} alt="linkedinIcon" className="footerIcon" />
+        </a>
+        <a href="/">
+          <img src={facebookIcon} alt="facebookIcon" className="footerIcon" />
+        </a>
+      </div>
+      <p>Manifest Staffing LLC. All rights reserved.</p>
+      <br />
     </div>
   );
 };

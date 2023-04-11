@@ -1,3 +1,5 @@
+// when we were installing the react-jotform-embed dependency we had to use npm i react-jotform-embed --legacy-peer-deps , so we will need to use the legacy peer deps for each dependency we install from here on out.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

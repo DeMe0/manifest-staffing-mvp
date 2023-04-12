@@ -8,14 +8,13 @@ const Nav = styled.nav`
   height: 10%;
   border-bottom: 2px solid #f1f1f1;
   padding: 0 20px;
-  display: flex;
-  justify-content: space-between;
   .logo {
     padding: 30px 0;
   }
   .navbarFlexBox {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
   }
   .mLogo {
     width: 10vh;

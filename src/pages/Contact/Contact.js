@@ -14,8 +14,10 @@ export const Contact = () => {
           hours.
         </p>
       </div>
-      <JotformEmbed src="https://www.jotform.com/230997765313163" />
-      <Link to="/">Home</Link>
+      <JotformEmbed
+        className="jotform-form"
+        src="https://www.jotform.com/230997765313163"
+      />
     </div>
   );
 };

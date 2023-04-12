@@ -4,8 +4,8 @@ export const About = () => {
   return (
     <div>
       <div className="AboutDiv">
-        <h1>Who Are We?</h1>
-        <p>
+        <h1 className="header3">Who Are We?</h1>
+        <p className="aboutText">
           Manifest staffing is your go-to solution for finding exceptional
           talent and staffing solutions. Manifest provides a unique approach to
           staffing with a focus on both the employer and the candidate, ensuring

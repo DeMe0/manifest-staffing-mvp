@@ -5,10 +5,14 @@ const Hero = (props) => {
   return (
     <div className="mainDivs" id="heroDiv">
       <div className="mainFlexBox" id="heroFlexBox">
-        <h2 className="header" id="slogan">
-          Don't Stress, Manifest
-        </h2>
-        <h3>Connecting employers with extraordinary staffing!</h3>
+        <div>
+          <h2 className="header" id="slogan">
+            Don't Stress, Manifest!
+          </h2>
+          <h3 className="header2">
+            Connecting employers with extraordinary staffing!
+          </h3>
+        </div>
         <div className="img-wrapper">
           <img
             src={timberlandPhoto}

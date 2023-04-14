@@ -10,6 +10,7 @@
   }
   .AboutDiv {
     display: flex;
+    justify-content: space-evenly;
   }
   .aboutText {
     width: 50vh;
@@ -26,6 +27,12 @@
     flex-direction: column;
     justify-content: space-around;
   }
+  .rightSideAboutDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   #heroDiv {
     box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.2),
       inset -1px -1px 15px 8px rgba(0, 0, 0, 0.2);
@@ -102,10 +109,14 @@
 
   .AboutDiv {
     display: flex;
+    justify-content: space-evenly;
   }
   .aboutText {
-    width: 50%;
+    width: 50vh;
     font-size: 1.2em;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 0 auto;
   }
   .header3 {
     font-size: 4em;
@@ -177,5 +188,13 @@
   }
   #missionStatementTextFlexBox:hover {
     transform: translateY(-8px);
+  }
+  .leftSideAboutDiv .bigImage {
+    max-width: 50vh;
+  }
+  .rightSideAboutDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

@@ -27,6 +27,8 @@ const Nav = styled.nav`
   .logoText {
     white-space: nowrap;
     padding: 0;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #ffffff;
   }
 `;
 

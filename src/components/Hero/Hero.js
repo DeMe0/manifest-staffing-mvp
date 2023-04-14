@@ -7,11 +7,9 @@ const Hero = (props) => {
       <div className="mainFlexBox" id="heroFlexBox">
         <div>
           <h2 className="header" id="slogan">
-            Don't Stress, Manifest!
+            Don't Stress - Manifest!
           </h2>
-          <h3 className="header2">
-            Connecting employers with extraordinary staffing!
-          </h3>
+          <h3 className="header2">Staffing you with extraordinary</h3>
         </div>
         <div className="img-wrapper">
           <img

@@ -1,5 +1,5 @@
-import "./App.css";
-import "./App-responsive.css";
+import "./App.scss";
+import "./App-responsive.scss";
 import React from "react";
 import Footer from "./components/Footer/Footer";
 import { Outlet } from "react-router-dom";

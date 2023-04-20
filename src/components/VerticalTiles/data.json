@@ -9,25 +9,25 @@
     {
       "id": 2,
       "cardTitle": "Logistics",
-      "cardDescription": "Experts are ready to help assure your event is planned well and executed to perfection.",
+      "cardDescription": "Experts are ready to help assist in planning and executing your event perfectly.",
       "cardLink": "placeholder"
     },
     {
       "id": 3,
       "cardTitle": "Production",
-      "cardDescription": "We are here to set up your next big production event!",
+      "cardDescription": "We are here to send you producers, coordinators, assistants, etc. for your next big production event!",
       "cardLink": "placeholder"
     },
     {
       "id": 4,
       "cardTitle": "Loading",
-      "cardDescription": "In need of some extra hands around the workplace? Let Manifest Staffing provide you with the experienced staff you need!",
+      "cardDescription": "In need of some extra hands to load in or load out your event? Let Manifest Staffing provide you with the experienced staff you need!",
       "cardLink": "placeholder"
     },
     {
       "id": 5,
-      "cardTitle": "Delivery",
-      "cardDescription": "Our delivery coordinators have you covered with prompt and pristine delivery services!",
+      "cardTitle": "Experiential",
+      "cardDescription": "Providing you with marketing and brand ambassador specialists who are in touch with todays' consumer.",
       "cardLink": "placeholder"
     }
   ]

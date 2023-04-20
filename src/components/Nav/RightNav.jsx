@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { COLORS } from "../../constants";
 
 const Ul = styled.ul`
   list-style: none;
@@ -21,7 +22,7 @@ const Ul = styled.ul`
   }
   @media (max-width: 768px) {
     flex-flow: column nowrap;
-    background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+    background-color: ${COLORS.PRIMARY};
     position: fixed;
     transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
     top: -30px;
@@ -39,7 +40,7 @@ const Ul = styled.ul`
   @media (min-width: 769px) {
     flex-flow: row nowrap;
     height: fit-content;
-    background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+    background-color: ${COLORS.PRIMARY};
     z-index: 1;
     transition: transform 0.3s ease-in-out;
     padding: 0 1em 0 1em;

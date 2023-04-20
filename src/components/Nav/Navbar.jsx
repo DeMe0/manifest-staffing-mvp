@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Burger from "./Burger";
-import navbarLogo from "./images/navbarLogo.png";
+import navbarLogo from "./images/logo.png";
 
 const Nav = styled.nav`
   width: 95%;
@@ -17,7 +17,7 @@ const Nav = styled.nav`
     justify-content: space-between;
   }
   .mLogo {
-    width: 10vh;
+    width: 5vh;
     height: auto;
   }
   .leftSideNav {

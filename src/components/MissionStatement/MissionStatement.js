@@ -14,7 +14,7 @@ const MissionStatement = (props) => {
           />
         </div>
         <div id="missionStatementTextFlexBox">
-          <h2 className="missionStatementHeader">Our Mission Statement</h2>
+          <h2 className="missionStatementHeader">Manifest's Mission</h2>
           <p className="missionStatementText">
             Let us be the bridge between your perfect event and the staff who
             work it. We will provide the highest quality staffer within each

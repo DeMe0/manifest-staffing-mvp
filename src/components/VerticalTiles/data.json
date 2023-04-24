@@ -2,8 +2,8 @@
   "verticals": [
     {
       "id": 1,
-      "cardTitle": "Logistics",
-      "cardDescription": "Experts are ready to help assist in planning and executing your event perfectly.",
+      "cardTitle": "Experiential",
+      "cardDescription": "Providing you with marketing and brand ambassador specialists who are in touch with todays' consumer.",
       "cardLink": "placeholder"
     },
     {
@@ -14,14 +14,15 @@
     },
     {
       "id": 3,
-      "cardTitle": "Loading",
-      "cardDescription": "In need of some extra hands to load in or load out your event? Let Manifest Staffing provide you with the experienced staff you need!",
+      "cardTitle": "Logistics",
+      "cardDescription": "Experts are ready to help assist in planning and executing your event perfectly.",
       "cardLink": "placeholder"
     },
+
     {
       "id": 4,
-      "cardTitle": "Experiential",
-      "cardDescription": "Providing you with marketing and brand ambassador specialists who are in touch with todays' consumer.",
+      "cardTitle": "Loading",
+      "cardDescription": "In need of some extra hands to load in or load out your event? Let Manifest Staffing provide you with the experienced staff you need!",
       "cardLink": "placeholder"
     }
   ]

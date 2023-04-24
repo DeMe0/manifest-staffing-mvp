@@ -186,6 +186,16 @@ $text-area-color: #ededed;
   #heroFlexBox h3 {
     font-size: 2em;
   }
+  #heroFlexBox img {
+    width: 50%;
+  }
+  #name {
+    display: block;
+    font-size: 0.8em;
+  }
+  #dontStress {
+    display: none;
+  }
   #partnersFlexBox img {
     max-width: 15%;
   }
@@ -243,5 +253,11 @@ $text-area-color: #ededed;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+@media screen and (min-width: 2000px) {
+  #name {
+    display: block;
+    font-size: 1.2em;
   }
 }

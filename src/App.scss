@@ -113,6 +113,10 @@ p {
   padding: 0.5em;
   text-shadow: 3px 3px 2px #145a7a;
 }
+#name {
+  display: none;
+}
+
 #areYouTrying,
 #wouldYouLike {
   text-align: center;
@@ -191,9 +195,9 @@ p {
   margin-right: auto;
   object-fit: cover;
 }
-/* #theShopImage {
-  transform: scale(1.5) translateY(5%) !important;
-} */
+#theShopImage {
+  transform: scale(1.2) translateY(5%) !important;
+}
 /* #missionStatementFlexBox:hover img,
 #heroFlexBox:hover img {
   transform: scale(1.5) translateY(10%);

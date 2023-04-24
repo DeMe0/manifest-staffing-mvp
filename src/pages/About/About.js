@@ -6,7 +6,9 @@ export const About = () => {
     <div>
       <div className="AboutDiv">
         <div className="leftSideAboutDiv">
-          <h1 className="header3">What We Do</h1>
+          <h1 className="header" id="whatWeDo">
+            What We Do
+          </h1>
           <img className="bigImage" src={giantsPic} alt="giantsPic" />
         </div>
         <div className="rightSideAboutDiv">

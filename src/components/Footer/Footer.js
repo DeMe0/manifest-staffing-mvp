@@ -3,7 +3,7 @@ import React from "react";
 import instagramIcon from "./assets/instagram.svg";
 import linkedinIcon from "./assets/linkedin.svg";
 import facebookIcon from "./assets/facebook.svg";
-import navbarLogo from "./assets/navbarLogo.png";
+import navbarLogo from "./assets/blue-logo-full.png";
 
 const Footer = (props) => {
   return (
@@ -18,7 +18,6 @@ const Footer = (props) => {
       </div>
       <div className="footerLogo">
         <img src={navbarLogo} alt="navbarLogo" />
-        <p>anifest Staffing</p>
       </div>
 
       <div className="mainFlexBox" id="footerFlexBox">

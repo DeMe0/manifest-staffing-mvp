@@ -1,5 +1,5 @@
 import React from "react";
-import timberlandPhoto from "./assets/Timberland-trailer.jpg";
+import netsPhoto from "./assets/nets-event.jpeg";
 
 const Hero = (props) => {
   return (
@@ -12,11 +12,7 @@ const Hero = (props) => {
           <h3 className="header2">Staffing you with extraordinary</h3>
         </div>
         <div className="img-wrapper">
-          <img
-            src={timberlandPhoto}
-            alt="timberlandPhoto"
-            className="bigImage"
-          />
+          <img src={netsPhoto} alt="timberlandPhoto" className="bigImage" />
         </div>
       </div>
     </div>

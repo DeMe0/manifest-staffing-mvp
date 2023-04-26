@@ -18,7 +18,7 @@ export const About = () => {
             focus on the employer and the candidate to ensure that both parties
             have a positive experience. We pride ourselves on our ability to
             quickly and efficiently fill temporary or permanent staffing needs
-            accross all industries. We understand the importance of matching the
+            across all industries. We understand the importance of matching the
             right talent with the right employer to ensure a successful outcome
             for everyone. We will provide you with a personalized experience to
             fit your unique staffing needs. We stand by our commitment to
